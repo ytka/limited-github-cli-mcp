@@ -80,6 +80,13 @@ use_mcp_tool({
 })
 ```
 
+## Usage Notes
+
+- Make sure you are in the correct repository directory when using this MCP server
+- The GitHub CLI must be properly authenticated with your GitHub account
+- For private repositories, ensure you have the necessary permissions
+- When creating PRs, it's recommended to provide a descriptive title and body
+
 ## Security
 
 This MCP server uses the local GitHub CLI, so it doesn't directly handle GitHub Access Tokens. It leverages the authentication credentials of the GitHub CLI, making it a secure way to perform GitHub operations.
